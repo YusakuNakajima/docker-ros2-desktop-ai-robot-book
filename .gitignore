@@ -1,5 +1,10 @@
 *.pyc
 tags
 cscope*
+core
 
-airobot_ws/*
+*/build/*
+*/install/*
+*/log/*
+
+onolab_ws/src/third_party/*
