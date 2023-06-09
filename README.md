@@ -1,9 +1,9 @@
 ## コマンド
 - 
 - ` vcs import src < src/underlay.rosinstall`
-- `rosdep install --ignore-src --from-paths src -y -r`
+- `rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y`
 - `colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release`
-
+    - clean cache option `--cmake-clean-cache`
 ## PC内環境でのURデモコマンド
 demo1
 ```
